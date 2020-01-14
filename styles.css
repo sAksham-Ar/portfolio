@@ -1,0 +1,105 @@
+
+body{
+      background-image: url('bac.jpg');
+      background-repeat: no-repeat;
+
+  background-size: cover;
+  color: white;
+    }
+    @keyframes example {
+      from {top: -300px;opacity: 0;}
+      to {top:600px;opacity: 1;}
+    }
+    .container-fluid h1
+    {
+      
+      animation-name: example;
+      animation-duration: 4s;
+    }
+    .jk
+    {
+      text-align: center;
+    }
+     .jk p
+     {
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+      animation-name: example;
+      animation-duration: 50s;
+     }
+     .jk h2
+     {
+       
+      animation-name: example;
+      animation-duration: 52s;
+     }
+     .im img{
+       height: 100px;
+       width:100px;
+     }
+   
+     .im {
+      height: 100%; /* 100% Full-height */
+      width: 0; /* 0 width - change this with JavaScript */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Stay on top */
+      top: 0;
+      left: 0;
+      background-color: #111; /* Black*/
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 60px; /* Place content 60px from the top */
+      transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    }
+    .im .closebtn {
+      position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+    }
+    .openbtn {
+      font-size: 20px;
+      cursor: pointer;
+      background-color: #111;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      position: absolute;
+      top: 50%;
+      left: 0px;
+    }
+    #main {
+      transition: margin-left .5s; /* If you want a transition effect */
+      padding: 20px;
+    }
+    
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+    @media screen and (max-height: 450px) {
+      .sidebar {padding-top: 15px;}
+      .sidebar a {font-size: 18px;}
+    }
+  
+    .container-fluid p
+    {
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        animation-name: example;
+        animation-duration: 8s;
+    }
+    .container-fluid h2
+    {
+      animation-name: example;
+        animation-duration: 6s;
+    }
+  .koll
+  {
+      text-align: center;
+  }
+  .koll img{
+      height:10%;
+      width: 5%;
+  }
+  .koll a img{
+    height:10%;
+    width: 5%;
+}
